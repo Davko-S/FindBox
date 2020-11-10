@@ -1,3 +1,5 @@
+package pl.davko.findbox.data;
+
 public class Database {
     int lineNum;
     String[] data;

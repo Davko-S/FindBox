@@ -1,3 +1,5 @@
+package pl.davko.findbox.model;
+
 public class Container {
     String name;
     int width;
