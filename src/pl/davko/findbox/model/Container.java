@@ -1,6 +1,6 @@
 package pl.davko.findbox.model;
 
-public class Container {
+public class Container implements Stackable {
     String name;
     int width;
     int length;
@@ -13,4 +13,8 @@ public class Container {
         this.height = height;
     }
 
+    @Override
+    public void stack(int levels) {
+        height = height * levels;
+    }
 }
